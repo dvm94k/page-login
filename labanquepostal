@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion à votre compte</title>
+</head>
+<body>
+  <h2>Connexion à votre compte particulier</h2>
+  <form>
+    <label for="identifiant">Identifiant (10 chiffres) :</label>
+    <input type="text" id="identifiant" maxlength="10" required>
+    <br><br>
+    <button type="submit">Continuer</button>
+  </form>
+</body>
+</html>
