@@ -1,0 +1,103 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion à votre compte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    .login-container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .remember {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .remember input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #003fa3;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #002f7a;
+    }
+
+    .forgot {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .forgot a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #003366;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Connexion à votre compte particulier</h2>
+
+  <div class="login-container">
+    <form action="#" method="post">
+      <label for="identifiant">Identifiant (10 chiffres)</label>
+      <input type="text" id="identifiant" name="identifiant" maxlength="10" required>
+
+      <div class="remember">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember" style="font-weight: normal;">Mémoriser mon identifiant</label>
+      </div>
+
+      <button type="submit">Continuer</button>
+    </form>
+
+    <div class="forgot">
+      <a href="#">Identifiant / Mot de passe oublié</a>
+    </div>
+  </div>
+
+</body>
+</html>
